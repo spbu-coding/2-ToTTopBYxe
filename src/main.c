@@ -72,7 +72,7 @@ int main(int argc, char** argv)
              else
              {
               cleared_mass_size++;
-              cleared_mass[k] = main_array[i];
+              cleared_mass[k] = &main_array[i];
               cleared_mass_wihout_sorting[k] = main_array[i];
               k++;
              }
@@ -88,7 +88,7 @@ int main(int argc, char** argv)
              else
              {
               cleared_mass_size++;
-              cleared_mass[k] = main_array[i];
+              cleared_mass[k] = &main_array[i];
               cleared_mass_wihout_sorting[k] = main_array[i];
               k++;
              }
@@ -106,7 +106,7 @@ int main(int argc, char** argv)
              else
              {
               cleared_mass_size++;
-              cleared_mass[k] = main_array[i];
+              cleared_mass[k] = &main_array[i];
               cleared_mass_wihout_sorting[k] = main_array[i];
               k++;
              }
@@ -114,7 +114,7 @@ int main(int argc, char** argv)
             else
             {
               cleared_mass_size++;
-              cleared_mass[k] = main_array[i];
+              cleared_mass[k] = &main_array[i];
               cleared_mass_wihout_sorting[k] = main_array[i];
               k++;
             }
